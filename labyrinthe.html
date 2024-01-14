@@ -8,13 +8,314 @@
 
     <a-scene>
 
-      <a-plane position="0 -0.4 -2" 
+      <a-assets>
+        <img id="0" src="./1.jpg">
+        <img id="90" src="./2.jpg">
+        <img id="ground" src="./galaxy.jpg">
+      </a-assets>
+
+      <a-plane position="0 0 0" 
              rotation="-90 0 0" 
              width="4" 
              height="4"
-             color="#FF6938">
+             src="#ground">
       </a-plane>
-      <a-sky color="#FFDDD2"></a-sky>
+
+
+
+
+      <a-plane id="1" position="0 1 -1" 
+      rotation="0 90 0" 
+      width="1" 
+      height="4"
+      side="double"
+      src="#0" 
+      repeat="1 4 ">
+     </a-plane>
+
+     <a-plane id="2" position="-0.25 1 -0.5" 
+     rotation="0 0 0" 
+     width="0.5" 
+     height="4"
+     side="double"
+     src="#90" 
+    repeat="0.5 4 ">
+    </a-plane>
+
+    <a-plane id="3" position="-0.5 1 0" 
+    rotation="0 90 0" 
+    width="1" 
+    height="4"
+    side="double"
+    src="#0" 
+    repeat="1 4 ">
+   </a-plane>
+
+   <a-plane id="4" position="-0.25 1 0.5" 
+     rotation="0 0 0" 
+     width="0.5" 
+     height="4"
+     side="double"
+     src="#90" 
+    repeat="0.5 4 ">
+    </a-plane>
+
+    <a-plane id="5" position="0 1 0.75" 
+    rotation="0 90 0" 
+    width="0.5" 
+    height="4"
+    side="double"
+    src="#0" 
+    repeat="0.5 4 ">
+   </a-plane>
+
+   <a-plane id="6" position="0.5 1 1" 
+     rotation="0 0 0" 
+     width="1" 
+     height="4"
+     side="double"
+     src="#90" 
+    repeat="1 4 ">
+    </a-plane>
+
+    <a-plane id="7" position="1 1 1.25" 
+    rotation="0 90 0" 
+    width="1.5" 
+    height="4"
+    side="double"
+    src="#0" 
+    repeat="1.5 6 ">
+   </a-plane>
+
+   <a-plane id="8" position="0.75 1 0.5" 
+     rotation="0 0 0" 
+     width="0.5" 
+     height="4"
+     side="double"
+     src="#90" 
+     repeat="0.5 4 ">
+    </a-plane>
+
+    <a-plane id="9" position="0.75 1 0" 
+    rotation="0 0 0" 
+    width="1.5" 
+    height="4"
+    side="double"
+    src="#90" 
+    repeat="1.5 6 ">
+   </a-plane>
+
+   <a-plane id="10" position="1 1 -0.25" 
+   rotation="0 90 0" 
+   width="0.5" 
+   height="4"
+   side="double"
+   src="#0" 
+   repeat="0.5 4 ">
+  </a-plane>
+
+  <a-plane id="11" position="1.5 1 -0.25" 
+  rotation="0 90 0" 
+  width="0.5" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="0.5 4 ">
+ </a-plane>
+
+   <a-plane id="12" position="1.75 1 -0.5" 
+   rotation="0 0 0" 
+   width="0.5" 
+   height="4"
+   side="double"
+   src="#90" 
+   repeat="0.5 4 ">
+  </a-plane>
+    
+  <a-plane id="13" position="0.75 1 -1" 
+    rotation="0 0 0" 
+    width="1.5" 
+    height="4"
+    side="double"
+    src="#90" 
+    repeat="1.5 6 ">
+   </a-plane>
+
+   <a-plane id="14" position="1.25 1 -1.5" 
+    rotation="0 0 0" 
+    width="0.5" 
+    height="4"
+    side="double"
+    src="#90" 
+    repeat="0.5 4 ">
+   </a-plane>
+
+   <a-plane id="15" position="1 1 -1.75" 
+  rotation="0 90 0" 
+  width="0.5" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="0.5 4 ">
+ </a-plane>
+
+ <a-plane id="16" position="-0.75 1 -1" 
+    rotation="0 0 0" 
+    width="0.5" 
+    height="4"
+    side="double"
+    src="#90" 
+    repeat="0.5 4 ">
+   </a-plane>
+
+   <a-plane id="17" position="-1 1 -0.5" 
+  rotation="0 90 0" 
+  width="1" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="0.5 4 ">
+ </a-plane>
+
+ <a-plane id="18" position="-1.25 1 -1.5" 
+ rotation="0 0 0" 
+ width="0.5" 
+ height="4"
+ side="double"
+ src="#90" 
+ repeat="0.5 4 ">
+</a-plane>
+
+<a-plane id="19" position="-1.5 1 -1" 
+  rotation="0 90 0" 
+  width="1" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="1 4 ">
+ </a-plane>
+
+<a-plane id="20" position="-1.75 1 -0.5" 
+    rotation="0 0 0" 
+    width="0.5" 
+    height="4"
+    side="double"
+    src="#90" 
+    repeat="0.5 4 ">
+   </a-plane>
+
+   <a-plane id="21" position="-1.5 1 0.5" 
+  rotation="0 90 0" 
+  width="1" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="1 4 ">
+ </a-plane>
+
+ <a-plane id="22" position="-1.25 1 1" 
+ rotation="0 0 0" 
+ width="0.5" 
+ height="4"
+ side="double"
+ src="#90" 
+ repeat="0.5 4 ">
+</a-plane>
+
+<a-plane id="23" position="-1 1 1.5" 
+  rotation="0 90 0" 
+  width="1" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="1 4 ">
+ </a-plane>
+
+ <a-plane id="24" position="-0.5 1 1.25" 
+  rotation="0 90 0" 
+  width="0.5" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="0.5 4 ">
+ </a-plane>
+
+ <a-plane id="25" position="0.25 1 1.5" 
+ rotation="0 0 0" 
+ width="1.5" 
+ height="4"
+ side="double"
+ src="#90" 
+ repeat="1.5 6 ">
+</a-plane>
+
+<a-plane id="26" position="1.75 1 1.5" 
+ rotation="0 0 0" 
+ width="0.5" 
+ height="4"
+ side="double"
+ src="#90" 
+ repeat="0.5 4 ">
+</a-plane>
+
+<a-plane id="27" position="1.5 1 1" 
+  rotation="0 90 0" 
+  width="1" 
+  height="4"
+  side="double"
+  src="#0" 
+  repeat="1 4 ">
+ </a-plane>
+
+
+
+
+      <a-plane id="fond" position="0 1 -2" 
+         rotation="0 0 0" 
+         width="4" 
+         height="4"
+         side="double"
+         src="#0" 
+      repeat="4 4 ">
+     </a-plane>
+
+     <a-plane id="gauche fond" position="-2 1 0" 
+         rotation="0 90 0" 
+         width="4" 
+         height="4"
+         side="double"
+         src="#0" 
+      repeat="4 4 ">
+     </a-plane>
+
+     <a-plane id="droite fond" position="2 1 0" 
+         rotation="0 90 0" 
+         width="4" 
+         height="4"
+         side="double"
+         src="#0" 
+      repeat="4 4 ">
+     </a-plane>
+
+     <a-plane id="d devant fond" position="-1 1 2" 
+         rotation="0 0 0" 
+         width="2" 
+         height="4"
+         side="double"
+         src="#0" 
+      repeat="2 4 ">
+     </a-plane>
+
+     <a-plane id="g devant fond" position="1.5 1 2" 
+         rotation="0 0 0" 
+         width="1" 
+         height="4"
+         side="double"
+         src="#0" 
+         repeat="1 4 ">
+     </a-plane>
+
+      <a-sky color="black"></a-sky>
     </a-scene>
     
   </body>
