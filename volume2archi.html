@@ -1,0 +1,53 @@
+
+<html>
+
+<head>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="//cdn.rawgit.com/donmccurdy/aframe-extras/v4.1.1/dist/aframe-extras.min.js"></script>
+</head>
+
+<body>
+    <a-scene light="defaultLightsEnabled: false">
+
+         <!-- MODELE -->
+        <a-assets>
+            <a-asset-item id="modele" src="./assets/maquette2.glb"></a-asset-item>
+        </a-assets>
+
+        <a-entity gltf-model="#modele" position="0 0 -8" scale="25 25 25" rotation="0 25 0"></a-entity>
+
+        <!-- LUMIERE -->
+        <!-- AMBIANT -->
+        <a-entity light="type: ambient; color: #541673"></a-entity>
+        
+        <!-- POINT -->
+        <a-entity light="type: point; intensity: 0.45; distance: 65; decay: 1; color: #ffeb69" position="2 2 0"
+            animation="property: light.color; from: #fffac9; to: #453e00; dur: 6000; loop: true; easing: linear; dir: alternate"></a-entity>
+        <a-entity light="type: point; intensity: 0.75; distance: 65; decay: 1; color: #ffeb69" position="2.7 6 -13"
+            animation="property: light.color; from: #fffac9; to: #453e00; dur: 6000; loop: true; easing: linear; dir: alternate"></a-entity>
+
+        <!-- SPOT -->
+        <!-- DEVANT -->
+        <a-light type="spot" position="-3 5 -6.5" rotation="-90 0 0" color="yellow" intensity="1" angle="20" penumbra="1"
+            animation__intensity="property: intensity; from: 0; to: 3; dur: 4000; easing: easeInQuad; loop: true; dir: alternate"> </a-light>
+        <a-light type="spot" position="1.5 7 -7.5" rotation="-90 0 0" color="yellow" intensity="1" angle="20" penumbra="1"
+            animation__color="property: color; from: #f2ff00; to: #ff9500; dur: 6000; easing: easeInQuad; loop: true; dir: alternate"> </a-light>
+        <a-light type="spot" position="4 4 -6" rotation="-80 0 0" color="yellow" intensity="1" angle="20" penumbra="1"
+            animation__rotation="property: rotation; from: 230 0 0; to: 270 0 0; dur: 5000; loop: true; dir: alternate"> </a-light>
+        <!-- DERRIERE -->
+        <a-light type="spot" position="2.5 8 -12" rotation="-90 0 0" color="#e9b3ff" intensity="1.5" angle="20" penumbra="1"> </a-light>
+        <a-light type="spot" position="-3.5 6 -12" rotation="-90 0 0" color="#e9b3ff" intensity="1" angle="20" penumbra="1"
+         animation__color="property: color; from: #e9b3ff; to: #ffe500; dur: 6000; easing: easeInQuad; loop: true; dir: alternate"> </a-light>
+        <a-light type="spot" position="-1 5 -8.5" rotation="-90 0 0" color="#e9b3ff" intensity="1" angle="20" penumbra="1"> </a-light>
+
+        <!-- CIEL -->
+        <a-sky color="#541673"></a-sky>
+        
+        <!-- CAMERA -->
+        <a-entity id="rig" movement-controls="fly: true; speed: 0.3">
+        <a-entity camera position="0 1.6 0" look-controls></a-entity>
+        </a-entity>
+    </a-scene>
+</body>
+
+</html>
