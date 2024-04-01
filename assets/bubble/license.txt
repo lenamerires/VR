@@ -1,0 +1,11 @@
+Model Information:
+* title:	Bubble
+* source:	https://sketchfab.com/3d-models/bubble-439b1d804a0940be97434dea3f20da05
+* author:	Yena Park (https://sketchfab.com/yenaprk105)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Bubble" (https://sketchfab.com/3d-models/bubble-439b1d804a0940be97434dea3f20da05) by Yena Park (https://sketchfab.com/yenaprk105) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
