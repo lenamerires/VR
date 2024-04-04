@@ -1,0 +1,11 @@
+Model Information:
+* title:	Cloud3 lowpoly
+* source:	https://sketchfab.com/3d-models/cloud3-lowpoly-98a6e2a97a2d4fc9806f1d1df2388822
+* author:	200580 (https://sketchfab.com/200580)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Cloud3 lowpoly" (https://sketchfab.com/3d-models/cloud3-lowpoly-98a6e2a97a2d4fc9806f1d1df2388822) by 200580 (https://sketchfab.com/200580) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
