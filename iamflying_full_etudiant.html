@@ -175,19 +175,21 @@
 
         <!-- ASSETS -->
         <a-assets>
-            <img id="sky" src="./assets/yghh.jpg">
+            <img id="sky" src="./assets/skyrender_1.jpg">
 
             <a-asset-item id="koifish" src="./assets/koi_fish.glb"></a-asset-item>
             <a-asset-item id="clownfish" src="./assets/clown_fish.glb"></a-asset-item>
             <a-asset-item id="lownfish" src="./assets/lownfish.glb"></a-asset-item>
-            <a-asset-item id="frog" src="./assets/frog/scene.gltf"></a-asset-item>
             <a-asset-item id="marteau" src="./assets/marteau.glb"></a-asset-item>
             <a-asset-item id="shark" src="./assets/shark.glb"></a-asset-item>
             <a-asset-item id="narwhal" src="./assets/narwhal.glb"></a-asset-item>
             <a-asset-item id="seadragon" src="./assets/seadragon/scene.gltf"></a-asset-item>
-            <a-asset-item id="pirate" src="./assets/pirate.glb"></a-asset-item>
             <a-asset-item id="poissons" src="./assets/poissons.glb"></a-asset-item>
-            <a-asset-item id="barque" src="./assets/barque.glb"></a-asset-item>
+            <a-asset-item id="bubble" src="./assets/bubble/scene.gltf"></a-asset-item>
+            <a-asset-item id="petit" src="./assets/petit.glb"></a-asset-item>
+            <a-asset-item id="sardine" src="./assets/sardine.glb"></a-asset-item>
+            <a-asset-item id="whaleshark" src="./assets/whaleshark.glb"></a-asset-item>
+            <a-asset-item id="orange" src="./assets/orange/scene.gltf"></a-asset-item>
         </a-assets>
 
         <!-- BASE -->
@@ -196,14 +198,17 @@
         <!-- DEBUT ETUDIANT -->
         <a-sky id="image-360" radius="500" change-sky radius="10" src="#sky"></a-sky>
         
-        <a-entity gltf-model="#pirate" animation-mixer position="6 35 -50" rotation="0 34 0" scale="8 8 8"></a-entity>
-        <a-entity gltf-model="#pirate" animation-mixer position="-20 35 36" rotation="0 139 0" scale="5 5 5"></a-entity>
-        <a-entity gltf-model="#barque" animation-mixer position="-33 35 -75" scale="3 3 3"></a-entity>
-        <a-entity gltf-model="#barque" animation-mixer position="20 35 26" scale="5 5 5"></a-entity>
-        <a-entity gltf-model="#barque" animation-mixer position="-71 35 -6" rotation="0 -13 0" scale="8 8 8"></a-entity>
-        <a-entity gltf-model="#frog" animation-mixer position="20 32 -2" rotation="0 -104 0" scale="10 10 10"></a-entity>
-        <a-entity gltf-model="#frog" animation-mixer position="0 32 25" rotation="0 31 0" scale="10 10 10"></a-entity>
-        <a-entity gltf-model="#frog" animation-mixer position="-20 32 -19" rotation="" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#bubble" animation-mixer position="20 21 11" rotation="0 69 0" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#bubble" animation-mixer position="25 -44 26" rotation="0 69 0" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#bubble" animation-mixer position="-21 -31 -14" rotation="0 69 0" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#bubble" animation-mixer position="5 -6 0" rotation="0 69 0" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#bubble" animation-mixer position="25 -44 26" rotation="0 69 0" scale="10 10 10"></a-entity>
+
+        <a-entity gltf-model="#sardine" animation-mixer position="-11 12 10" rotation="0 -153 -47" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#petit" animation-mixer position="1 -15 -10" rotation="" scale="2 2 2"></a-entity>
+        <a-entity gltf-model="#whaleshark" animation-mixer position="1 24 10" rotation="" scale="10 10 10"></a-entity>
+        <a-entity gltf-model="#orange" animation-mixer position="1 6 12" rotation="0 177 0" scale="30 30 30"></a-entity>
+
         <a-entity gltf-model="#poissons" animation-mixer position="1 -50 10" rotation="-15 55 4" scale="20 20 20"></a-entity>
         <a-entity gltf-model="#poissons" animation-mixer position="24 -16 -16" rotation="-15 -34 4" scale="20 20 20"></a-entity>
         <a-entity gltf-model="#poissons" animation-mixer position="-11 -19 -3" rotation="7 44 -10" scale="20 20 20"></a-entity>
@@ -213,15 +218,24 @@
         <a-entity gltf-model="#clownfish" animation-mixer position="10 7 7" rotation="-15 118 4" scale="30 30 30"></a-entity>
         <a-entity gltf-model="#lownfish" animation-mixer position="-7 -10 10" rotation="-8 -70-16" ></a-entity>
         <a-entity gltf-model="#lownfish" animation-mixer position="-9 7 -21" rotation="-15 -131 4"></a-entity>
+
         <a-entity gltf-model="#seadragon" animation-mixer position="-9 -43 -29" rotation="-15 -34 4" scale="6 6 6"></a-entity>
         <a-entity gltf-model="#seadragon" animation-mixer position="-9 -43 -29" rotation="-15 -34 4" scale="6 6 6"></a-entity>
         <a-entity gltf-model="#seadragon" animation-mixer position="6 -26 -6" rotation="0 -53 0" scale="6 6 6"></a-entity>
         <a-entity gltf-model="#marteau" animation-mixer position="-10 -24 13" rotation="-25 123 2" scale="10 10 10"></a-entity>
         <a-entity gltf-model="#marteau" animation-mixer position="10 -29 -34" rotation="-18 -27 9" scale="10 10 10"></a-entity>
-        <a-entity gltf-model="#narwhal" animation-mixer position="11 -25 4" rotation="-9 -160 14" scale="8 8 8"></a-entity>
+        <a-sphere position="0 2 -4" radius="2" color="yellow" opacity="0"
+            animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 50000; easing: linear">
+            <a-entity gltf-model="#narwhal" animation-mixer position="11 -36 4" rotation="-9 -160 14" scale="8 8 8"></a-entity>
+        </a-sphere>
+        <a-sphere position="0 0 0" radius="50" color="yellow" opacity="0"
+            animation="property: rotation; from: 0 0 0; to: 0 360 0; loop: true; dur: 50000; easing: linear">
+            <a-entity gltf-model="#shark" animation-mixer position="52 0 0" rotation="2 -155 0" scale="0.08 0.08 0.08"></a-entity>
+            <a-entity gltf-model="#shark" animation-mixer position="-40 -40 10" rotation="-3 25 0" scale="0.08 0.08 0.08"></a-entity>
+        </a-sphere>
         <a-entity gltf-model="#narwhal" animation-mixer position="-8 -58 -12" rotation="-31 32 -18" scale="8 8 8"></a-entity>
-        <a-entity gltf-model="#shark" animation-mixer position="30 -40 0" rotation="14 -28 -5" scale="0.08 0.08 0.08"></a-entity>
         <a-entity gltf-model="#shark" animation-mixer position="-36 -35 -20" rotation="-12 68 14" scale="0.08 0.08 0.08"></a-entity>
+
         
         
         <!-- FIN ETUDIANT -->
